@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AppDoNhipTim</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hcmute">HCMUTE</string>
+    <string name="health_monitoring">GIÁM SÁT SỨC KHỎE</string>
+    <string name="login_title">ĐĂNG NHẬP</string>
+    <string name="prompt_email_username">Email hoặc Tên đăng nhập</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mật khẩu</string>
+    <string name="action_login">ĐĂNG NHẬP</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="no_account_register">Chưa có tài khoản? Đăng ký ngay</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_map">Biểu đồ</string>
+    <string name="nav_history">Lịch sử</string>
+    <string name="nav_settings">Cài đặt</string>
+    <string name="fall_warning_title">CẢNH BÁO TÉ NGÃ</string>
+    <string name="fall_status_normal">Bình thường</string>
+    <string name="fall_warning_alert">CẢNH BÁO TÉ NGÃ!</string>
+    <string name="location_title">VỊ TRÍ HIỆN TẠI</string>
+    <string name="location_default">Hà Nội, Việt Nam</string>
+</resources>

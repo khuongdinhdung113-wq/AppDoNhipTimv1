@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Outer Green Circle -->
+    <path
+        android:fillColor="#48C9B0"
+        android:pathData="M50,0 A50,50 0 1,0 50,100 A50,50 0 1,0 50,0 Z"/>
+
+    <!-- Inner Red Heart -->
+    <path
+        android:fillColor="#E91E63"
+        android:pathData="M50,75 L45,70 C30,56 20,47 20,35 C20,25 28,18 38,18 C44,18 50,21 50,21 C50,21 56,18 62,18 C72,18 80,25 80,35 C80,47 70,56 55,70 Z"/>
+
+    <!-- White EKG Pulse Line -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M42,54 h8 l3,-14 l6,20 l4,-12 l2,6 h8"/>
+
+</vector>

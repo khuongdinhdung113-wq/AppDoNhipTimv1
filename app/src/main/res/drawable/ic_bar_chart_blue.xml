@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="70dp"
+    android:viewportWidth="120"
+    android:viewportHeight="70">
+
+    <!-- Grid Horizontal Lines -->
+    <path android:fillColor="#00000000" android:strokeColor="#F1F5F9" android:strokeWidth="1" android:pathData="M0,10 H120 M0,25 H120 M0,40 H120 M0,55 H120"/>
+
+    <!-- Blue Bar Charts -->
+    <path android:fillColor="#60A5FA" android:pathData="M5,70 V20 H9 V70 Z M12,70 V25 H16 V70 Z M19,70 V22 H23 V70 Z M26,70 V30 H30 V70 Z M33,70 V18 H37 V70 Z M40,70 V12 H44 V70 Z M47,70 V8 H51 V70 Z M54,70 V15 H58 V70 Z M61,70 V22 H65 V70 Z M68,70 V19 H72 V70 Z M75,70 V25 H79 V70 Z M82,70 V14 H86 V70 Z M89,70 V10 H93 V70 Z M96,70 V18 H100 V70 Z M103,70 V16 H107 V70 Z M110,70 V20 H114 V70 Z"/>
+</vector>

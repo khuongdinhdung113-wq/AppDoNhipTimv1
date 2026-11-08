@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="100dp"
+    android:viewportWidth="200"
+    android:viewportHeight="100">
+
+    <!-- Background EKG pulse line -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFCDD2"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M10,50h35l8,-18l12,36l8,-24l6,12h22M100,50h22l6,-12l8,24l12,-36l8,18h35"/>
+
+    <!-- Central Glowing Heart -->
+    <path
+        android:pathData="M100,75l-2.9,-2.64C86.8,63.12 80,56.96 80,48.5 80,41.92 84.92,37 91.5,37c3.48,0 6.82,1.62 9,4.18C102.68,38.62 106.02,37 109.5,37 116.08,37 121,41.92 121,48.5c0,8.46 -6.8,14.62 -17.1,23.86L100,75z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="80"
+                android:startY="37"
+                android:endX="121"
+                android:endY="75"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF5252" />
+                <item android:offset="1.0" android:color="#FF1744" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

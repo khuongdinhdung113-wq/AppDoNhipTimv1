@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="36"
+    android:viewportHeight="36">
+    <!-- Pink Square Background -->
+    <path
+        android:fillColor="#FF4D6D"
+        android:pathData="M8,0 H28 A8,8 0 0,1 36,8 V28 A8,8 0 0,1 28,36 H8 A8,8 0 0,1 0,28 V8 A8,8 0 0,1 8,0 Z"/>
+    <!-- Heart White -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M18,26l-1.05,-0.95C13.2,21.6 11,19.3 11,16.5c0,-2.2 1.8,-4 4,-4 1.2,0 2.4,0.6 3,1.5 0.6,-0.9 1.8,-1.5 3,-1.5 2.2,0 4,1.8 4,4 0,2.8 -2.2,5.1 -5.95,8.55L18,26z"/>
+    <!-- Pulse Line White -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M12,18h3l2,-5l3,10l2,-5h4"/>
+</vector>

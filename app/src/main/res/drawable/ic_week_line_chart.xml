@@ -1,0 +1,67 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="90dp"
+    android:viewportWidth="200"
+    android:viewportHeight="90">
+
+    <!-- Horizontal Grid Lines -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#F1F5F9"
+        android:strokeWidth="1"
+        android:pathData="M15,15 H185 M15,35 H185 M15,55 H185 M15,75 H185"/>
+
+    <!-- Red Heart Rate Area Fill -->
+    <path
+        android:pathData="M15,55 L43,50 L71,62 L99,52 L127,65 L155,66 L185,66 V80 H15 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="50"
+                android:endX="0"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#30EF4444" />
+                <item android:offset="1.0" android:color="#00EF4444" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Red Heart Rate Line (T2 -> CN) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#EF4444"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M15,55 L43,50 L71,62 L99,52 L127,65 L155,66 L185,66"/>
+
+    <!-- Red Data Points -->
+    <path android:fillColor="#EF4444" android:pathData="M15,55m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"/>
+    <path android:fillColor="#EF4444" android:pathData="M43,50m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"/>
+    <path android:fillColor="#EF4444" android:pathData="M71,62m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"/>
+    <path android:fillColor="#EF4444" android:pathData="M99,52m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"/>
+    <path android:fillColor="#EF4444" android:pathData="M127,65m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"/>
+    <path android:fillColor="#EF4444" android:pathData="M155,66m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"/>
+    <path android:fillColor="#EF4444" android:pathData="M185,66m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"/>
+
+    <!-- Blue SpO2 Line (T2 -> CN) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#2563EB"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M15,22 L43,18 L71,28 L99,18 L127,25 L155,22 L185,22"/>
+
+    <!-- Blue Data Points -->
+    <path android:fillColor="#2563EB" android:pathData="M15,22m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"/>
+    <path android:fillColor="#2563EB" android:pathData="M43,18m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"/>
+    <path android:fillColor="#2563EB" android:pathData="M71,28m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"/>
+    <path android:fillColor="#2563EB" android:pathData="M99,18m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"/>
+    <path android:fillColor="#2563EB" android:pathData="M127,25m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"/>
+    <path android:fillColor="#2563EB" android:pathData="M155,22m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"/>
+    <path android:fillColor="#2563EB" android:pathData="M185,22m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"/>
+
+</vector>

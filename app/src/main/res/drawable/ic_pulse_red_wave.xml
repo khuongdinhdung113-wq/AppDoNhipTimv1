@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="32dp"
+    android:viewportWidth="48"
+    android:viewportHeight="32">
+    <!-- Red EKG Wave -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#D32F2F"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M2,16h8l3,-12l5,22l4,-14l3,4h12"/>
+    <!-- Red Dot at end -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M37,16m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0"/>
+</vector>

@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <!-- Rounded Square -->
+    <path
+        android:fillColor="#E0F2FE"
+        android:pathData="M8,0 H24 A8,8 0 0,1 32,8 V24 A8,8 0 0,1 24,32 H8 A8,8 0 0,1 0,24 V8 A8,8 0 0,1 8,0 Z"/>
+    <!-- Bars -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M8,22h3v-6h-3v6zM13.5,22h3v-11h-3v11zM19,22h3v-15h-3v15z"/>
+</vector>

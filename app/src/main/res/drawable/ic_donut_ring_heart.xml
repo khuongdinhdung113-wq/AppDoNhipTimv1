@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Background Base Circle Track -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#F1F5F9"
+        android:strokeWidth="10"
+        android:pathData="M 60,10 A 50,50 0 1,1 59.99,10" />
+
+    <!-- Green Segment (Bình thường - ~70%) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#10B981"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:pathData="M 95.36,24.64 A 50,50 0 1,1 15.45,82.7" />
+
+    <!-- Red Segment (Thấp hơn - ~15%) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#EF4444"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:pathData="M 15.45,82.7 A 50,50 0 0,1 52.18,10.62" />
+
+    <!-- Orange Segment (Cao hơn - ~15%) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:pathData="M 52.18,10.62 A 50,50 0 0,1 95.36,24.64" />
+
+</vector>

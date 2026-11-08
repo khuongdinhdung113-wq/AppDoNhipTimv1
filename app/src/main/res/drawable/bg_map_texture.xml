@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="60dp"
+    android:viewportWidth="200"
+    android:viewportHeight="60">
+
+    <!-- Faint Map Roads Grid in Background -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E2E8F0"
+        android:strokeWidth="1.5"
+        android:pathData="M100,0 V60 M140,0 V60 M180,0 V60 M80,15 H200 M80,40 H200 M120,5 L190,55 M150,55 L200,15"/>
+</vector>

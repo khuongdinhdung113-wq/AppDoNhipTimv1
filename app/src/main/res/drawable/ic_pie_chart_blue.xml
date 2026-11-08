@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <!-- Rounded Square -->
+    <path
+        android:fillColor="#DBEAFE"
+        android:pathData="M8,0 H24 A8,8 0 0,1 32,8 V24 A8,8 0 0,1 24,32 H8 A8,8 0 0,1 0,24 V8 A8,8 0 0,1 8,0 Z"/>
+    <!-- Pie/Clock Icon -->
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="M16,8c-4.4,0 -8,3.6 -8,8s3.6,8 8,8 8,-3.6 8,-8 -3.6,-8 -8,-8zM16,22c-3.3,0 -6,-2.7 -6,-6s2.7,-6 6,-6 6,2.7 6,6 -2.7,6 -6,6zM15,11h2v6h-2zM15,17h5v2h-5z"/>
+</vector>
